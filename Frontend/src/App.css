@@ -1,0 +1,94 @@
+.top-bar {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin: 0;
+}
+
+
+nav {
+  background-color: #ffffff;
+  padding: 0; 
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 50px; 
+  left: 0;
+  z-index: 999;
+  margin: 0; 
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+nav ul li {
+  margin-right: 20px;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px 12px; 
+  display: block;
+  width: 100%;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 100%;
+}
+
+body {
+  padding-top: 100px; 
+  margin: 0;
+  width: 100%;
+}
+.brand-name {
+  color: rgb(0, 0, 0);
+  font-size: 3rem; 
+  margin-right: 500px;
+  padding-left: 20px;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.left-column {
+  flex: 1; 
+  padding: 20px; 
+  background-color: #e6e6e6; 
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.right-column {
+  flex: 1; 
+  padding: 20px; 
+  width: 100%;
+}
+
